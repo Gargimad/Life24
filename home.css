@@ -38,6 +38,12 @@
     height: 600px;
     text-align: center;
     top: 50px;
+    background: transparent;
+    height: 600px;
+    border: 2px solid white;
+    backdrop-filter: blur(7px);
+    box-shadow: 0 0 10px black;
+    color: white;
 }
 .headerHome .stylingHeader{
     width: 100%;
@@ -48,7 +54,7 @@
     box-shadow: 0 0 10px black;
     color: white;
 }
-.headerHome .stylingHeader h1{
+.headerHome h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
     color: navy;
@@ -56,7 +62,7 @@
     -webkit-text-stroke: .3px black;
     padding-top: 140px;
 }
-.headerHome .stylingHeader p{
+.headerHome p{
     font-size: 45px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
