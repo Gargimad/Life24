@@ -19,7 +19,7 @@ html{
 .navBar a{
     color: white;
     text-decoration: none;
-    font-family: Impact;
+    font-family: 'Times New Roman', Times, serif;
 }
 .navBar a:hover{
     color: #8265A7;
@@ -40,7 +40,7 @@ html{
     letter-spacing: 2px;
     color: black;
     border: 2px solid black;
-    font-family:'Courier New', Courier, monospace; 
+    font-family:'Times New Roman', Times, serif; 
     color: white;   
 }
 table, th, td{
@@ -50,13 +50,12 @@ table, th, td{
     font-size: 27px;
     border-collapse: collapse;
     border: 2px solid black;
-    font-family:'Courier New', Courier, monospace;
-    text-shadow: -1.5px 1.5px 0px orange;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: -1px 1px 0px orange;
     -webkit-text-stroke: .3px navy;
 }
 th{
     background: orange;
-    text-shadow: -1.5px 1.5px 0px navy;
     -webkit-text-stroke: .3px black;
 }
 td{
@@ -64,7 +63,7 @@ td{
     color: black;
 }
 td:hover{
-    background: green;
+    background: navy;
     color: white;
 }
 #nextMonth{
@@ -77,6 +76,7 @@ td:hover{
     top: 30%;
     position: absolute;
 }
+
 #previousMonth{
     color: white;
     background-color: navy;

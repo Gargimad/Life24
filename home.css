@@ -49,16 +49,14 @@
     color: white;
 }
 .headerHome .stylingHeader h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 100px;
     color: navy;
-    text-shadow: -7px 7px 0px orange;
-    -webkit-text-stroke: .3px black;
     padding-top: 140px;
 }
 .headerHome .stylingHeader p{
     font-size: 45px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .navBar{
     position: absolute;
@@ -77,25 +75,26 @@
 .navBar a{
     color: white;
     text-decoration: none;
-    font-family: Impact;
+    font-family: 'Times New Roman', Times, serif;
 }
 .navBar a:hover{
     color: #8265A7;
 }
 .introduction{
-    text-align: center;
-    padding: 50px;
+    text-align: left;
+    padding: 30px;
     background-color: whitesmoke;
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
+    line-height: 1.5;
 }
 .introduction p{
     padding-bottom: 30px;
     padding-top: 5px;
     font-size: 20px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
@@ -138,7 +137,7 @@
     background-color:white;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0px 4px 6px orange;
+    box-shadow: 0px 1px 2px orange;
     margin: 20px;
     transition: transform 0.6s ease;
     animation: appear linear;
@@ -157,18 +156,19 @@
     padding: 20px;
 }
 .cardContent h1{
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 .cardContent p{
-    font-size: 15px;
+    font-size: 20px;
     color: black;
     margin-bottom: 20px;
+    line-height: 1.5;
 }
 .cardButton{
     display: inline-block;
-    background-color:orange;
-    color:black;
+    background-color:navy;
+    color:white;
     text-decoration: none;
     border-radius: 5px;
     padding: 8px 16px;
@@ -187,9 +187,9 @@
 
 
 section h1{
-    color: black;
-    text-shadow: -2px 2px 0px orange;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: navy;
+    text-shadow: -2px 2px 0px whitesmoke;
+    font-family: Times;
     font-size: 70px;
     text-align: center;
     animation: appear linear;
@@ -224,10 +224,11 @@ section h1{
     animation-range: entry 0 cover 40%;
 }
 .usingOptions .text p{
-    font-size: 30px;
+    font-size: 20px;
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
+    line-height: 1.5;
 }
 
 .img img{
