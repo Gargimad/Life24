@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book</title>
+        <link rel="stylesheet" href="booking.css">
+        <link rel="icon" type="image/x-icon" href="logo.jpeg">
+    </head>
+
+
+    <nav class="navBar">
+        <a href="index.html"><img src="logo.jpeg"></a>
+        <a href="February.html">Calendar</a>
+        <a href="tickets.html">Tickets</a>
+        <a href="planner.html">Planner</a>
+        <a href="info.html">Information</a>
+        <a id="signUp"href="signUp.html">Sign up</a>
+        <a id="logIn.html" href="logIn.html">Log in</a>
+    </nav>
+   
+    <body>
+        <div class="formContainter">
+            <form action="bookSuccess.html">
+                <h1 class="heading">Book your ticket</h1>
+
+
+            <div class="formField">
+                <p>Full Name:</p>
+                <input type="text" placeholder="Full Name">
+            </div>
+            <div class="formField">
+                <p>Email:</p>
+                <input type="email" placeholder="Email">
+            </div>
+        
+            <div class="formField">
+                <p>Time:</p>
+                <select name="select" id="select">
+                    <option value="1">3:00 PM</option>
+                    <option value="2">5:00 PM</option>
+                    <option value="3">7:00 PM</option>
+                    <option value="4">9:00 PM</option>
+                 
+                </select>
+            </div>
+            <div class="formField">
+                <p>Number of people coming including you</p>
+                <select name="select" id="select">
+                    <option value="1">1 person</option>
+                    <option value="2">2 people</option>
+                    <option value="3">3 people</option>
+                    <option value="4">4 people</option>
+                    <option value="5">5 people</option>
+                    <option value="6">6 people</option>
+                    <option value="7">7 people</option>
+                    <option value="8">8 people</option>
+                    <option value="9">9 people</option>
+                </select>
+            </div>
+            <p align="center">
+            <button class="btn" type="submit">Book</button>
+            </p>
+        </form>
+        </div>
+    </body>
+</html>
