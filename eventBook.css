@@ -70,15 +70,14 @@ html{
     color: #8265A7;
 }
 .tableDesign{
-    padding: 100px;
-    align-items: center;
-    display: flex;
+  align-items: center;
 }
 .tableDesign img{
-    width: 100%;
+    width: 600px;
+    border-radius: 30px;
 }
 .tableDesign td{
-    padding: 50px;
+  padding: 50px;
 }
 .tableDesign h1{
     color: navy;
@@ -87,4 +86,22 @@ html{
 .tableDesign label{
     color: black;
     font-size: 20px;
+}
+.tableDesign .details{
+  line-height: 2;
+}
+.seatInstructions{
+  color: navy;
+}
+.tableDesign #submit{
+  color: white;
+  background-color: navy;
+  border-radius: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+.tableDesign #submit:hover{
+  color: orange;
+  background-color: black;
+  scale:1.2;
 }
