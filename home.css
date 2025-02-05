@@ -301,23 +301,6 @@ footer{
     text-align: center;
     padding: 30px;
 }
-.dropdown button{
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-.dropdown a{
-    display: block;
-    color: black;
-    text-decoration: none;
-    padding: 10px;
-}
-.dropdown .content{
-    display: none;
-    position: absolute;
-    background-color: lightgreen;
-    min-width: 50px;
-}
 #avatar:hover{
     background-color: white;
     border-radius: 50%;
