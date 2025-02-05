@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>Reingold Circus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo.jpeg">
+    <link rel="stylesheet" href="eventBook.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<nav class="navBar">
+    <a href="index.html"><img src="logo.jpeg"></a>
+    <a href="February.html">Calendar</a>
+    <a href="tickets.html">Tickets</a>
+    <div class="dropdown">
+        <a href="planner.html">Planner</a>
+          <div class="dropdown-content">
+            <a href="calendar.html">Personal calendar</a>
+            <a href="rent.html">Rent</a>
+          </div>
+        </div>
+    <div class="dropdown">
+  <a href="info.html">Information</a>
+    <div class="dropdown-content">
+      <a href="about.html">About</a>
+      <a href="#popup">Contact</a>
+      <a href="info.html">General Information</a>
+    </div>
+  </div>
+    <a id="signUp"href="signUp.html">Sign up</a>
+    <a id="logIn" href="logIn.html">Log in</a>
+</nav>
+
+<table class="tableDesign">
+    <tr>
+        <td><img src= "circusPicture.jpeg"></td>
+        <td>
+            <h1>Reingold Circus</h1>
+            <p>On March 13. 2025 at 6pm. Save the details in your event calendar under the correct date after you've completely filled out this form</p>
+            <p> The details: Reingold Circus @6PM</p>
+            <form action="calendar.html" method="get">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" required><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br><br>
+                <label for="memberID">Membership ID: </label>
+                <input type="number" id="memberID" name="memberID" required><br><br>
+                <label for="seat" id="seating" name="seats">Your seat</label>
+                <select name="select" id="select">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3">7:00 PM</option>
+                    <option value="4">9:00 PM</option>
+                </select>
+                <input type="submit" id="submit" value="Submit">
+              </form>
+        </td>
+    </tr>
+</table>
