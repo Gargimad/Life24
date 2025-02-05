@@ -343,10 +343,14 @@ footer{
     display: inline-block;
     margin-top: 10px;
     padding: 5px 10px;
-    background-color: rgb(255, 0, 0);
+    background-color: navy;
     color: #fff;
     text-decoration: none;
     border-radius: 3px;
+}
+.closeContacts:hover{
+    background-color: black;
+    color: orange;
 }
 
 .dropdown {
@@ -394,4 +398,25 @@ footer{
   
   .dropdown:hover .dropbtn {
     background-color: white;
+  }
+
+  .explore h1{
+    color: navy;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .explore h2{
+    color: navy;
+    text-align: left;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .explore p{
+    color: black;
+    text-align: left;
+    padding: 30px;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
   }
