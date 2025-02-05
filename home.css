@@ -327,7 +327,7 @@ footer{
         flex-direction: column;
     }
 }
-.contactPopUp{
+.popup{
     display: none;
     position: fixed;
     top: 0;
@@ -345,7 +345,7 @@ footer{
     border-radius: 5px;
     text-align: center;
 }
-.contactPopUp:target{
+.popup:target{
     display: flex;
 }
 .closeContacts{
