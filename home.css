@@ -343,8 +343,16 @@ footer{
     background: #fff;
     padding: 20px;
     border-radius: 5px;
+}
+
+.contentPopUp h2{
     text-align: center;
 }
+
+.contentPopUp p{
+    text-align: left;
+}
+
 .popup:target{
     display: flex;
 }
