@@ -339,21 +339,29 @@ footer{
     align-items: center;
 }
 
-.popupcontent {
+.contentPopUp{
     background: #fff;
     padding: 20px;
     border-radius: 5px;
+}
+
+.contentPopUp h2{
     text-align: center;
 }
+
+.contentPopUp p{
+    text-align: left;
+}
+
 .popup:target{
     display: flex;
 }
-.close{
+.closeContacts{
     display: inline-block;
     margin-top: 10px;
     padding: 5px 10px;
     background-color: rgb(255, 0, 0);
     color: #fff;
-    text-decoration: none:
+    text-decoration: none;
     border-radius: 3px;
 }
