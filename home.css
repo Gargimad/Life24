@@ -404,7 +404,7 @@ footer{
     color: navy;
     text-align: center;
     font-size: 50px;
-    padding: 20px;
+    padding: 50px;
     font-family: 'Times New Roman', Times, serif;
   }
   .explore h2{
@@ -417,6 +417,13 @@ footer{
     color: black;
     text-align: left;
     padding: 30px;
-    line-height: 1.5;
+    line-height: 1.7;
     font-family: 'Times New Roman', Times, serif;
+  }
+  .explore img{
+    border-radius: 100px;
+  }
+  .explore td{
+    padding: 100px;
+    width: 600px;
   }

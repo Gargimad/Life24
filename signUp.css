@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Times New Roman', Times, serif;
 }
 .navBar{
     position:fixed;
@@ -30,22 +30,23 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('signupBackground.jpeg') no-repeat;
+    background: lightgray ;
 }
 
 .wrapper{
     width: 420px;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid black;
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px black;
-    color: white;
+    color: black;
     border-radius: 10px;
     padding: 30px 40px;
 }
 .wrapper h1{
     font-size: 50px;
     text-align: center;
+    color: navy;
 }
 .wrapper .inputBox{
     position: relative;
@@ -59,14 +60,14 @@ body{
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 40px;
     font-size: 16px;
-    color: white;
+    color: Black;
     padding: 20px 45px 20px 20px;
 }
 .inputBox input::placeholder{
-    color: white;
+    color: Black;
 }
 .inputBox i{
     position: absolute;
@@ -82,11 +83,11 @@ body{
     margin: -15px 0 15px;
 }
 .rememberBox label input{
-    accent-color: white;
+    accent-color: black;
     margin-right: 3px;
 }
 .rememberBox a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .rememberBox a:hover{
@@ -116,7 +117,7 @@ body{
     margin: 20px 0 15px;
 }
 .registerLink p a{
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: 600;
 }
