@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const monthHeader = document.createElement('div');
         monthHeader.className = 'month-header';
         monthHeader.textContent = `${monthNames[month]} ${year}`;
-        calendarContainer.appendChild(monthHeader);
+        calendarContainer.appendChild(monthHeader); 
 
         for (let i = 0; i < firstDay; i++) {
             const emptyCell = document.createElement('div');
@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
             eventElement.className = 'event';
             eventElement.textContent = eventText;
             dayCell.appendChild(eventElement);
+            
         }
     }
 

@@ -2,88 +2,107 @@
 <html>
     <head>
         <title>Information</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="info.css">
         <link rel="icon" type="image/x-icon" href="logo.jpeg">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
     <nav class="navBar">
         <a href="index.html"><img src="logo.jpeg"></a>
-        <a href="January.html">Calendar</a>
+        <a href="February.html">Calendar</a>
         <a href="tickets.html">Tickets</a>
-        <a href="planner.html">Planner</a>
-        <a href="info.html">Information</a>
+        <div class="dropdown">
+            <a href="planner.html">Planner</a>
+              <div class="dropdown-content">
+                <a href="calendar.html">Personal calendar</a>
+                <a href="rent.html">Rent</a>
+              </div>
+            </div>
+        <div class="dropdown">
+            <a href="information.html">Information</a>
+        <div class="dropdown-content">
+          <a href="info.html#location">Directions</a>
+          <a href="index.html#popup">Contact</a>
+          <a href="info.html#Seats">Seating Arrangement</a>
+          <a href="info.html#Guidelines">Guidelines</a>
+          <a href="info.html#Amenities">Amenities</a>
+        </div>
+      </div>
         <a id="signUp"href="signUp.html">Sign up</a>
         <a id="logIn" href="logIn.html">Log in</a>
     </nav>
-    <body>
 
-        <section class="directions">
+
+<section>
+    <table id="location">
+    <tr>
+        <td>
             <h1><span>Directions</span></h1>
-            <table>
-            <tr>
-                <td>
-                    <p>Our Location:</p>
-                    <p class="location">5575 State Bridge Rd, Johns Creek, GA 30022 </p>
-                </td>
-                <td>
-                    <img src="SerenityDirections.jpeg">
-                </td>
-            </tr>
-            </table>
-        </section>
+            <p>Our Location:</p>
+            <p class="location"><a href="https://www.google.com/maps/dir//Johns+Creek+High+School,+5575+
+                State+Bridge+Rd,+Johns+Creek,+GA+30022/@34.0228556,-84.1975038,17z/data=!4m8!4
+                m7!1m0!1m5!1m1!1s0x88f59f5a1525c515:0x39d6ab8a67a4120b!2m2!1d-84.1949289!2d34.0228556?
+                entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D5575">State Bridge Rd, Johns Creek, GA 30022</a></p>
+        </td>
 
-        <section class="policies">
-            <h1><span>Our Policies</span></h1><br>
-            <p><span>
-                Main community regulations and policies:</p>
-                <ul>
-                    <li>We treat the people in our community with respect and kindness</li>
-                    <li>Performers should be respected and given their time to perform</li>
-                    <li>Audience members should silence their phones during live performances and give their undivided attention</li>
-                    <li>Audience members should not take pictures using flash. It can disrupt performances</li>
-                    <li>No horseplay or fights allowed as an audience member</li>
-                    <li>Audience members are not allowed to enter the space when performers are performing unless allowed by performer</li>
-                    <li>Calls should be made outside the gymnasium</li>
-                </ul>
-            </span>
-        </section>
-
-        <section class="seatingChart">
-            <h1><span>Seating Chart</span></h1>
-            <table>
-                <tr>
-                    <td><img src="seats.jpeg"></td>
-                    <td><p>Our seats, made of high-quality leather are foldable chairs that include a table.
-                         These chairs are a comfortable place to sit at while watching performances. We have 4 halls of seats
-                        surrounding the gymnasium on each side: A, B, C, and D bleachers<br><br>You can easily choose your seats in our planner
-                        page.</p></td>
-                </tr>
-            </table>
-        </section>
-    </body>
-
-
-    <footer>
-        <div class="footerContainer">
-            <div class="socialIcons">
-                <a href=""><i class='bx bxl-instagram-alt'></i></a>
-                <a href=""><i class='bx bxs-envelope'></i></a>
-                <a href=""><i class='bx bxl-twitter' ></i></a>
-                <a href=""><i class='bx bxl-facebook-circle' ></i></a>
-                <a href=""><i class='bx bxs-phone' ></i></a>
-            </div>
-        </div>
-        <div class="footerNav">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">News</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">Our Team</a></li>
-            </ul>
-        </div>
-        <div class="footerBottom">
-            <p>Copyright &copy;2024; Designed by <span> Madala</span> </p>
-        </div>
-    </footer>
-</html>
+        <td>
+            <img src="directions.jpeg">
+        </td>
+    </tr>
+    <tr id="Seats">
+        <td><img src="seats.jpeg"></td>
+        <td>
+            <h1>Seating Arrangement</h1>
+            <p>We are proud to say that we have 3,500 seats in total around our arena. It is split into 4 groups, with ten rows for groups A and C, and with 7 rows for groups B and D</p>
+            <p>The format for stating your specific seat is explained at every booking form but here it is again:</p>
+            <p>
+                To choose your seat, first pick the side of the gymnasium you want to sit in: A, B, C, or D. Then, you need to pick the row that you'll sit in. 
+                The row count starts from the top to the bottom. Separate these characters with a dot. Finally, pick the specific seat in the row based on the direction indicated.
+                For instance, if the direction is to the right, the side is A, and you want to sit in the last row on the last seat, your desired seat will look like this: A.1.36
+            </p>
+            <p> Our booking forms contain he seats that are available at the current moment of time, ensuring that your information is accurate.</p>
+        </td>
+    </tr>
+    <tr id="Guidelines">
+        <td>
+            <h1>Guidelines and Policies</h1>
+            <p>
+                <b>Main community regulations and policies:</b><br><br><br>
+                    -We treat the people in our community with respect and kindness<br><br>
+                    -Performers should be respected and given their time to perform<br><br>
+                    -Audience members should silence their phones during live performances and give their undivided attention<br><br>
+                    -Audience members should not take pictures using flash. It can disrupt performances<br><br>
+                    -No horseplay or fights allowed as an audience member<br><br>
+                    -Audience members are not allowed to enter the space when performers are performing unless allowed by performer<br><br>
+                    -Calls should be made outside the gymnasium<br><br>
+            </p>
+            <p><b>Users who don't follow our guidelines and policies could have their account suspended for a month or may be asked 
+                to exit the event without a refund depending on the circumstances of the situation
+            </b></p>
+        </td>
+        <td>
+            <img src="gymnasium.jpeg">
+        </td>
+    </tr>
+    <tr id="Amenities">
+        <td><img src="amenities.jpeg"></td>
+        <td>
+            <h1>Amenities</h1>
+            <p>Our gymnasium contains elements that stand out from other gymnasium. Many of our features include a large 70,000 sq. feet of stage area,
+                perfect for large events like trade shows to reduce a feeling of crowdness. Along with that, there are 3,500 seats outside the arena, which 
+                is enough for a large audience to indulge in performances with perfect amount of space.
+            </p>
+            <p>For sports, our gymnasium has built in basketball hoops that can go down when needed. For parties, our gymnasium has a disco ball inside the cieling. 
+                When needed, the disco ball can come down with a click of a button. We provide free wi-fi access, comfortable seating, and clean bathrooms:
+                The seats contain arm rests and foam padding for comfort, and the bathrooms are cleaned every 3 hours by our team of helpful janitors working around the clock.
+            </p>
+            <p>We have sufficient parking space for vehicles and we also include handicapped-accessible parking along with separate parking for VIPs and hosts.
+                Along with sufficient parking, we also have concession stands and a box office beside the entrance of our gymnasium. Attendees of events can
+                book tickets and choose seating online or they can go to the box office before hand and book a ticket in-person. Concession stands offer beverages
+                and food that people can buy whenever they desire, preferably before an event has started. 
+            </p>
+        
+        </td>
+    </tr>
+    </table>
+</section>

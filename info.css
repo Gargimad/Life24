@@ -1,3 +1,6 @@
+html{
+    background-color: lightgray
+}
 .navBar{
     position: absolute;
     top:0;
@@ -20,37 +23,6 @@
 .navBar a:hover{
     color: #8265A7;
 }
-.policies{
-    padding: 50px;
-    background-color:lightgray;
-    width: 100%;
-}
-.policies a{
-    background-color: navy;
-    color: white;
-    padding: 10px;
-    border-radius: 30px;
-    text-decoration: none;
-}
-.policies a:hover{
-    background-color: orange;
-    color: black;
-    scale: 2;
-}
-.policies li{
-    font-size: 20px;
-    padding-bottom: 20px;
-}
-.policies p{
-    font-size: 25px;
-}
-.policies h1{
-    color: navy;
-    text-shadow: -1px 1px 0px orange;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 70px;
-    text-align: center;
-}
 section{
     padding: 100px;
 }
@@ -64,31 +36,31 @@ section{
     font-family: 'Times New Roman', Times, serif;
 }
 #location td{
-    padding: 30px;
+    padding: 20px;
     align-content: center;
-    display: block;
 }
 #location img{
-    width: 800px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 40px;
 }
-.seatingChart h1{
-    color: black;
-    text-shadow: -2px 2px 0px orange;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 70px;
-    text-align: center;
+#Seats img{
+    width: 500px;
 }
-.seatingChart img{
-    width: 900px;
-    border-radius: 30px;
+#Seats p{
+    line-height: 1.5;
 }
-.seatingChart p{
-    font-size: 20px;
-    padding: 50px;
+#Guidelines img{
+    width: 600px;
 }
-.seatingChart{
-    padding: 50px;
-    background-color: lightblue;
+#Guidelines p{
+    line-height: 1.5;
+}
+#Amenities img{
+    width: 500px;
+}
+#Amenities p{
+    line-height: 1.5;
 }
 @keyframes appear{
     from{
