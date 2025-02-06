@@ -15,7 +15,7 @@
 .navBar a{
     color: white;
     text-decoration: none;
-    font-family: Impact;
+    font-family: 'Times New Roman', Times, serif;
 }
 .navBar a:hover{
     color: #8265A7;
@@ -45,48 +45,31 @@
     font-size: 25px;
 }
 .policies h1{
-    color: black;
-    text-shadow: -2px 2px 0px orange;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 70px;
-    text-align: center;
-}
-.directions{
-    padding: 50px;
-    background-color:azure;
-    width: 100%;
-    animation: appear linear;
-    justify-content: center ;
-    animation-timeline: view();
-    animation-range: entry 0 cover 40%;
-}
-.directions .location{
     color: navy;
-}
-.directions h1{
-    color: black;
-    text-shadow: -2px 2px 0px orange;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: -1px 1px 0px orange;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 70px;
     text-align: center;
 }
-.directions p{
-    font-size: 25px;
+section{
+    padding: 100px;
 }
-.directions img{
-    height: 600px;
-    border-radius:30px;
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0 cover 40%;
+#location table{
+    align-content: center;
 }
-.directions p{
-    padding-right:300px;
-    padding-left: 10px;
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0 cover 40%;
-    text-align: center;
+#location h1{
+    color: navy;
+    font-size: 70px;
+    text-shadow: -1px 1px 0px orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+#location td{
+    padding: 30px;
+    align-content: center;
+    display: block;
+}
+#location img{
+    width: 800px;
 }
 .seatingChart h1{
     color: black;
@@ -173,3 +156,49 @@ footer{
 .footerBottom{
     background-color:black;
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style for the dropdown button */
+  .dropbtn {
+    padding: 14px 20px;
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Style for the links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    background-color: navy;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Show the dropdown when hovering over the button */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: white;
+  }

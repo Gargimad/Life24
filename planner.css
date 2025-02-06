@@ -15,16 +15,17 @@
 .navBar a{
     color: white;
     text-decoration: none;
-    font-family: Impact;
+    font-family: 'Times New Roman', Times, serif;
 }
 .navBar a:hover{
     color: #8265A7;
 }
 .formContainter h1{
     font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    text-shadow: -2px 2px 0px orange;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    color: navy;
+    text-shadow: -1px 1px 0px orange;
     -webkit-text-stroke: .1px black;
     text-align: center;
 }
@@ -39,7 +40,7 @@ body .instructions{
     padding: 10px;
 }
 html{
-    background: url('bookBackground.jpeg') no-repeat;
+    background: lightgray;
     background-size: cover;
 }
 .formField{
@@ -48,8 +49,8 @@ html{
 }
 .formField p{
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    color: White;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
     -webkit-text-stroke: .1px black;
     text-align: center;
     width: 15%;
@@ -60,13 +61,13 @@ html{
     height: 30px;
     padding: 5px;
     border-radius: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    border-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: black;
     background: transparent;
-    color: white;
+    color: black;
 }
 .formField .placeholder{
-    color: white;
+    color: black;
 }
 .formField #select{
     font-size: 15px;
@@ -74,24 +75,71 @@ html{
     height: 50px;
     padding: 5px;
     border-radius: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    border-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: black;
     background: transparent;
-    color: white;
+    color: black;
 }
 option{
-    background-color: navy;
+    background-color: lightgray;
 }
 .btn{
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     padding: 10px;
     border-radius: 30px;
     width:10%;
     justify-content: center;
+    background-color: navy;
+    color: white;
 }
 .btn:hover{
-    background-color: orangered;
-    color: white;
+    background-color: black;
+    color: orange;
     scale: 1.1;
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  /* Style for the dropdown button */
+  .dropbtn {
+    padding: 14px 20px;
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Style for the links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    background-color: navy;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Show the dropdown when hovering over the button */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: white;
+  }
