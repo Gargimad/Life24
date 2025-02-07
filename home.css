@@ -404,7 +404,8 @@ footer{
     color: navy;
     text-align: center;
     font-size: 50px;
-    padding: 50px;
+    padding-top: 200px;
+    padding-bottom: 50px;
     font-family: 'Times New Roman', Times, serif;
   }
   .explore h2{
