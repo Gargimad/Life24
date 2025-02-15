@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
-    <title>Serenity Gymnasium</title>
+    <title>Life24 Gymnasium</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="logo.jpeg">
     <link rel="stylesheet" href="home.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -8,16 +9,39 @@
 <body>
     <header class="headerHome">
         <div class="stylingHeader">
-            <h1>SERENITY GYMNASIUM</h1>
+            <h1>Life24 Gymnasium</h1>
         </div>
     </header>
     <nav class="navBar">
-        <a href="homeAfterLogin.html"><img src="logo.jpeg"></a>
-        <a href="January.html">Calendar</a>
+        <a href="index.html"><img src="logo.jpeg"></a>
+        <div class="dropdown">
+            <a href="February.html">Calendar</a>
+              <div class="dropdown-content">
+                <a href="February.html">February</a>
+                <a href="March.html">March</a>
+              </div>
+        </div>
         <a href="tickets.html">Tickets</a>
-        <a href="planner.html">Planner</a>
-        <a href="info.html">Information</a>
-        <a id="avatar"><img src="avatar.jpeg"></a>
+        <div class="dropdown">
+            <a href="planner.html">Planner</a>
+              <div class="dropdown-content">
+                <a href="calendar.html">Personal calendar</a>
+                <a href="rent.html">Rent</a>
+              </div>
+        </div>
+        <div class="dropdown">
+            <a href="information.html">Information</a>
+                <div class="dropdown-content">
+                <a href="info.html#location">Directions</a>
+                <a href="index.html#popup">Contact</a>
+                <a href="info.html#Seats">Seating Arrangement</a>
+                <a href="info.html#Guidelines">Guidelines</a>
+                <a href="info.html#Amenities">Amenities</a>
+                </div>
+        </div>
+        <a id="signUp"href="signUp.html">Sign up</a>
+        <a id="logIn" href="logIn.html">Log in</a>
+        <img src="avatar.png">
     </nav>
 
 
@@ -31,8 +55,12 @@
             we offer everything you need to achieve your health and fitness goals. Our team of certified trainers and instructors are dedicated 
             to providing personalized guidance and support, ensuring a safe and effective workout experience for everyone. Along with flexible workout
             plans, our gymnasium provides a space that can be rented for performances, concerts, trade shows, and a variety of other events. Simply plan the
-            event in your planner, host the event, and share your invitation with others.
+            event in your planner, host the event, and share your invitation with others. The three major categories of events available right now are listed below.
+            Click ‘Explore’ to view the events under those categories you can attend. Along with events you can attend, the space is available for rent at a certain price. 
+            Simply click ‘Rent’ under ‘Planner’ on the navigation bar at the top.
         </span></p>
+
+        
     </section>
 
     <section>
@@ -43,10 +71,9 @@
                 <div class="cardContent">
                     <h1>Live Concerts</h1>
                     <p>
-                        Live concerts can easily be coordinated in this gymnasium. Our space is affordable, contains high-quality
-                        facilities, and has excellent staff members to help with the setup.
+                        Live concerts can easily be coordinated in this gymnasium. Singing, dancing, and enjoying is wonderful for engagement. 
                     </p>
-                    <a href="#" class="cardButton">Explore</a>
+                    <a href="explore.html#concerts" class="cardButton">Explore</a>
                 </div>
             </div>
             <div class="card">
@@ -54,15 +81,15 @@
                 <div class="cardContent">
                     <h1>Sporting events</h1>
                     <p>The gymnasium offers sporting events with many teams renting the spacious area to display their athletic skills</p>
-                    <a href="#" class="cardButton">Explore</a>
+                    <a href="explore.html#sports" class="cardButton">Explore</a>
                 </div>
             </div>
             <div class="card">
                 <img src="tradePicture.jpeg">
                 <div class="cardContent">
                     <h1>Trade Shows</h1>
-                    <p>The gymnasium, also used for trade shows is the perfect place to set up booths for trade shows and other informational activities</p>
-                    <a href="#" class="cardButton">Explore</a>
+                    <p>The gymnasium, also used for trade shows, is the perfect place to set up booths for trade shows and other informational activities</p>
+                    <a href="explore.html#shows" class="cardButton">Explore</a>
                 </div>
             </div>
         </div>
@@ -75,12 +102,13 @@
             <tr>
                 <td>            
                     <div class="text"><h1>Facilities</h1>   
-                    <p>We offer the right setup for you. It is affordable, high-quality, 
+                    <p>We offer the right setup for you. Amenities are affordable, high-quality, 
                         and flexible for your timing and sechedule. Our staff memebers are
-                        highly qualified for the job. Our business runs with funds and donations
-                        of many generous people and businesses. Serenity is spacious, has the 
-                        right equipment for all your necessities, and uses your money to help
-                        the education of children in the United States. Join us today!
+                        highly qualified for their jobs and contribute greatly to this community.
+                        Our business runs with funds and donations from many generous people and businesses. 
+                        Serenity is spacious, has the right equipment for all your necessities, and uses your money to help
+                        the education of children in the United States. Sign up today and give us a call or text to ask more 
+                        questions! We're here to help you rent spaces smoothly without any difficulty. 
                     </p>
                     </div>
                 </td>    
@@ -95,11 +123,11 @@
     <footer>
         <div class="footerContainer">
             <div class="socialIcons">
-                <a href=""><i class='bx bxl-instagram-alt'></i></a>
-                <a href=""><i class='bx bxs-envelope'></i></a>
-                <a href=""><i class='bx bxl-twitter' ></i></a>
-                <a href=""><i class='bx bxl-facebook-circle' ></i></a>
-                <a href=""><i class='bx bxs-phone' ></i></a>
+                <a href="#popup"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#popup"><i class='bx bxs-envelope'></i></a>
+                <a href="#popup"><i class='bx bxl-twitter' ></i></a>
+                <a href="#popup"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="#popup"><i class='bx bxs-phone' ></i></a>
             </div>
         </div>
         <div class="footerNav">
@@ -107,14 +135,25 @@
                 <li><a href="">Home</a></li>
                 <li><a href="">News</a></li>
                 <li><a href="">About</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="index.html/#popup">Contact Us</a></li>
                 <li><a href="">Our Team</a></li>
             </ul>
         </div>
         <div class="footerBottom">
-            <p>Copyright &copy;2024; Designed by <span> Madala</span> </p>
+            <p>Copyright &copy;2024 Life24. All rights reserved</p>
         </div>
     </footer>
+    <div id ="popup" class="popup">
+        <div class="contentPopUp">
+            <h2>Contact Life24 Gymnasium</h2>
+            <p>Instagram: <a href="https://www.instagram.com/jchsfbla/">@jchsfbla</a></p>
+            <p>Email: <a href="jchsfbla@gmail.com">Johns Creek FBLA</a></p>
+            <p>Twitter: <a href="https://x.com/i/flow/login?redirect_after_login=%2FJchsOrchestra">JCHS</a></p>
+            <p>Facebook: <a href="https://www.facebook.com/people/Johns-Creek-HS-FBLA/100079722604213/">Johns Creek HS FBLA</a></p>
+            <p>Phone: (470) 254-2138</p>
+            <a href="#" class="closeContacts">Contacted!</a>
+        </div>
+    </div>
 
 </body>
 </html>

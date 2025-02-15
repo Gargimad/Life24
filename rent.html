@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Planner</title>
+        <link rel="stylesheet" href="planner.css">
+        <link rel="icon" type="image/x-icon" href="logo.jpeg">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <nav class="navBar">
+        <a href="index.html"><img src="logo.jpeg"></a>
+        <div class="dropdown">
+            <a href="February.html">Calendar</a>
+              <div class="dropdown-content">
+                <a href="February.html">February</a>
+                <a href="March.html">March</a>
+              </div>
+        </div>
+        <a href="tickets.html">Tickets</a>
+        <div class="dropdown">
+            <a href="rent.html">Planner</a>
+              <div class="dropdown-content">
+                <a href="calendar.html">Personal calendar</a>
+                <a href="rent.html">Rent</a>
+              </div>
+        </div>
+        <div class="dropdown">
+            <a href="information.html">Information</a>
+                <div class="dropdown-content">
+                <a href="info.html#location">Directions</a>
+                <a href="index.html#popup">Contact</a>
+                <a href="info.html#Seats">Seating Arrangement</a>
+                <a href="info.html#Guidelines">Guidelines</a>
+                <a href="info.html#Amenities">Amenities</a>
+                </div>
+        </div>
+        <a id="signUp"href="signUp.html">Sign up</a>
+        <a id="logIn" href="logIn.html">Log in</a>
+    </nav>
+    <body>
+        <div class="formContainter">
+            <form action="bookSuccess.html">
+                <h1 class="heading">Rent the Arena</h1>
+
+
+            <div class="formField">
+                <p>Full Name:</p>
+                <input type="text" placeholder="Type your first and last name" required>
+            </div>
+            <div class="formField">
+                <p>Membership ID:</p>
+                <input type="text" placeholder="Type Membership ID" required>
+            </div>
+            <div class="formField">
+                <p>Email:</p>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="formField">
+                <p>Event Date:</p>
+                <input type="date" required>
+            </div>
+            <div class="formField">
+                <p>Start Time:</p>
+                <input type="time" required>
+            </div>
+            <div class="formField">
+                <p>Total hours</p>
+                <input type="number" placeholder="Total number of hours renting the arena" required>
+            </div>
+            <p align="center">
+            <button class="btn" type="submit" href="summary.hml">Book</button>
+            </p>
+        </form>
+        </div>
+    </body>
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="#popup"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#popup"><i class='bx bxs-envelope'></i></a>
+                <a href="#popup"><i class='bx bxl-twitter' ></i></a>
+                <a href="#popup"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="#popup"><i class='bx bxs-phone' ></i></a>
+            </div>
+        </div>
+        <div class="footerNav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="index.html#popup">Contact Us</a></li>
+                <li><a href="">Our Team</a></li>
+            </ul>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2024 Life24. All rights reserved</p>
+        </div>
+      </footer>
+      <div id ="popup" class="popup">
+        <div class="contentPopUp">
+            <h2>Contact Life24 Gymnasium</h2>
+            <p>Instagram: <a href="https://www.instagram.com/jchsfbla/">@jchsfbla</a></p>
+            <p>Email: <a href="jchsfbla@gmail.com">Johns Creek FBLA</a></p>
+            <p>Twitter: <a href="https://x.com/i/flow/login?redirect_after_login=%2FJchsOrchestra">JCHS</a></p>
+            <p>Facebook: <a href="https://www.facebook.com/people/Johns-Creek-HS-FBLA/100079722604213/">Johns Creek HS FBLA</a></p>
+            <p>Phone: (470) 254-2138</p>
+            <a href="#" class="closeContacts">Contacted!</a>
+        </div>
+      </div>
+</html>
