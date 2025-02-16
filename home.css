@@ -428,3 +428,16 @@ footer{
     padding: 100px;
     width: 600px;
   }
+  @media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* Styles for smartphones */
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
