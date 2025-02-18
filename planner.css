@@ -46,6 +46,7 @@ html{
 .formField{
     display: flex;
     justify-content: center;
+    padding: 15px;
 }
 .formField p{
     font-size: 20px;
@@ -92,6 +93,7 @@ option{
     justify-content: center;
     background-color: navy;
     color: white;
+    cursor: pointer;
 }
 .btn:hover{
     background-color: black;
@@ -251,3 +253,41 @@ option{
     background-color: black;
     color: orange;
   }
+
+
+  .rental{
+    justify-content:center;
+    color: navy;
+    text-align: center;
+    align-items: center;
+  }
+
+  .rental .prices{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 30px;
+    width:10%;
+    justify-content: center;
+    background-color: navy;
+    color: white;
+}
+.rental .prices:hover{
+    background-color: black;
+    color: orange;
+    scale: 1.1;
+    cursor: pointer;
+}
+.pricesHtml h1{
+    padding: 50px;
+    text-align: center;
+    color: navy;
+    font-size: 50px;
+}
+.pricesHtml .priceImg{
+  padding: 30px;
+  width: 900px;
+  align-items: center;
+  margin: auto;
+  display: grid;
+}
