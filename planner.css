@@ -46,7 +46,7 @@ html{
 .formField{
     display: flex;
     justify-content: center;
-    padding: 15px;
+    padding: 20px;
 }
 .formField p{
     font-size: 20px;
@@ -66,6 +66,17 @@ html{
     border-color: black;
     background: transparent;
     color: black;
+}
+.formField select{
+  font-size: 15px;
+  width: 20%;
+  height: 30px;
+  padding: 5px;
+  border-radius: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: black;
+  background: transparent;
+  color: black;
 }
 .formField .placeholder{
     color: black;
