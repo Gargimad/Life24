@@ -441,6 +441,7 @@ footer{
     p{
         font-size: 12px;
         line-height:1.2;
+        padding: 0px;
     }
     .navBar{
         top:0;
@@ -454,7 +455,7 @@ footer{
         justify-content: space-evenly;
     }
     .navBar img{
-        height: 10px;
+        height: 30px;
     }
     .headerHome{
         background: url('gymnasium.jpeg') no-repeat;
