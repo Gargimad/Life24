@@ -429,7 +429,7 @@ footer{
     width: 600px;
   }
 /* Styles for smartphones */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .container {
         width: 100%;
         padding: 10px;
@@ -467,4 +467,4 @@ footer{
         top: 50px;
     }
 
-    }
+    } */
