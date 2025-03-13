@@ -1,0 +1,24 @@
+*{
+    padding: 60px;
+    text-align: center;
+}
+h1{
+    text-shadow: -2px 2px 0px orange;
+    -webkit-text-stroke: .3px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    color: navy;
+}
+a{
+    background-color: navy;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    text-decoration: none;
+}
+a:hover{
+    scale: 2;
+    background-color: orange;
+    color: black;
+}

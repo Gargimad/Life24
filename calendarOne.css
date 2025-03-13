@@ -1,3 +1,9 @@
+#calendar{
+  background-color: lightgray;
+}
+html{
+  background-color: lightgray;
+}
 body {
     font-family: 'Times New Roman', Times, serif;
     display: flex;
@@ -103,4 +109,10 @@ body {
   
   .dropdown:hover .dropbtn {
     background-color: white;
+  }
+
+  p{
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
   }
