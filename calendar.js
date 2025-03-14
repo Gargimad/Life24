@@ -36,12 +36,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 eventElement.textContent = savedEvent;
                 eventElement.addEventListener('click', (e) => {
                     e.stopPropagation();
-                    editEvent(eventElement, year, month, day);
+                    showEventOptions(eventElement, year, month, day);
                 });
                 dayCell.appendChild(eventElement);
             }
         }
     }
+
     function addEvent(dayCell, month, year, day) {
         const eventText = prompt('Enter event details:');
         if (eventText) {
@@ -50,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             eventElement.textContent = eventText;
             eventElement.addEventListener('click', (e) => {
                 e.stopPropagation();
-                editEvent(eventElement, year, month, day);
+                showEventOptions(eventElement, year, month, day);
             });
             dayCell.appendChild(eventElement);
 
@@ -59,12 +60,43 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    function showEventOptions(eventElement, year, month, day) {
+        const optionsContainer = document.createElement('div');
+        optionsContainer.className = 'event-options';
+
+        const editButton = document.createElement('button');
+        editButton.textContent = 'Edit';
+        editButton.addEventListener('click', (e) => {
+            e.stopPropagation();
+            editEvent(eventElement, year, month, day);
+        });
+
+        const deleteButton = document.createElement('button');
+        deleteButton.textContent = 'Delete';
+        deleteButton.addEventListener('click', (e) => {
+            e.stopPropagation();
+            deleteEvent(eventElement, year, month, day);
+        });
+
+        optionsContainer.appendChild(editButton);
+        optionsContainer.appendChild(deleteButton);
+        eventElement.appendChild(optionsContainer);
+    }
+
     function editEvent(eventElement, year, month, day) {
-        const newEventText = prompt('Edit event details:', eventElement.textContent);
+        const newEventText = prompt('Edit event details:');
         if (newEventText) {
             eventElement.textContent = newEventText;
             // Update event in localStorage
             localStorage.setItem(`event-${year}-${month}-${day}`, newEventText);
+        }
+    }
+
+    function deleteEvent(eventElement, year, month, day) {
+        if (confirm('Are you sure you want to delete this event?')) {
+            eventElement.remove();
+            // Remove event from localStorage
+            localStorage.removeItem(`event-${year}-${month}-${day}`);
         }
     }
 
